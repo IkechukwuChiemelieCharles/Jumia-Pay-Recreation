@@ -1,0 +1,147 @@
+:root {
+  /* --blue: skyblue; */
+  --paleBlue2: #74a9e9;
+  --paleBlue: #378ef9;
+  --headerCol: #f5f7fa;
+  --white: #ffffff;
+  --textCol: #282828;
+  --orange: #f68b1e;
+  --paleOrange: #fff0e6;
+  --ash: #8d8d92;
+  --black: #000000;
+  --boldBlack: #727272;
+  --font28: 2.8rem;
+  --font14: 1.4rem;
+  --font12: 1.2rem;
+  --font11: 1.1rem;
+  --font13: 1.3rem;
+  --font15: 1.5rem;
+  --font10: 1rem;
+}
+
+.nav-icon {
+  width: 20.419rem;
+}
+nav button {
+  display: flex;
+  width: 10.819rem;
+  height: 3.4rem;
+  color: var(--white);
+  background-color: rgba(255, 255, 255, 0.199);
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.6rem;
+  gap: 1rem;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 20.8rem;
+}
+nav li,
+a {
+  list-style: none;
+  color: var(--white);
+  font-size: var(--font15);
+}
+.logoXul {
+  display: flex;
+}
+
+header .first-div {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  background-color: var(--paleBlue);
+  padding-top: 1.5rem;
+  height: 22.8rem;
+}
+
+header .first-div .icons {
+  flex-direction: column;
+  width: 45.1rem;
+  height: 12.5rem;
+  flex-wrap: nowrap;
+  gap: 0;
+  padding-bottom: 0;
+}
+
+header .bottomdiv {
+  display: none;
+}
+
+/* .section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 64.8rem;
+  background-color: var(--white);
+  border: 1px solid red;
+} */
+
+.section .write-up {
+  width: 71.9rem;
+}
+
+article {
+  width: 100vw;
+  height: 20.995rem;
+  margin-top: 2rem;
+}
+
+.article-links {
+  width: 71.9rem;
+}
+main {
+  /* padding: 1.6rem; */
+  justify-content: center;
+  align-items: center;
+}
+
+main .div1 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  /* flex-direction: column; */
+  width: 90%;
+  /* width: 48.3rem; */
+  height: 13.1rem;
+  overflow-x: hidden;
+  background-color: var(--white);
+}
+
+.divWlife {
+  width: 90%;
+}
+.divWlife .div1 {
+  width: 100%;
+}
+
+aside {
+  align-items: center;
+  /* width: 90%; */
+}
+aside .head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 84.8rem;
+}
+
+.top-footer .img {
+  flex-wrap: nowrap;
+}
+article {
+  justify-content: center;
+  align-items: center;
+}
+.article-links {
+  width: 90%;
+}

@@ -1,0 +1,60 @@
+nav {
+  width: 90rem;
+}
+
+.big-img .carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  width: 90rem;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+main .div1 {
+  width: 90rem;
+}
+
+.divWlife {
+  width: 90rem;
+}
+
+.article-links {
+  width: 90rem;
+  padding: 0 0;
+}
+
+.art-links {
+  width: 90rem;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  width: 90rem;
+  height: 64.8rem;
+  background-color: var(--white);
+}
+
+/* footer {
+  flex-direction: row;
+} */
+
+.top-footer {
+  flex-direction: row;
+  width: 90rem;
+  justify-content: space-between;
+}
+
+.writeup {
+  align-items: start;
+}
+
+.bottomfooter {
+  flex-direction: row;
+  width: 90rem;
+  justify-content: space-between;
+}
