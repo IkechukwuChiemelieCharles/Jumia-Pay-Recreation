@@ -125,7 +125,7 @@ header .bottomdiv {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 40%;
+  width: 20rem;
 }
 
 .bottomdiv a {
