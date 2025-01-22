@@ -61,6 +61,7 @@ header .first-div {
   background-color: var(--paleBlue);
   padding-top: 1.5rem;
   height: 22.8rem;
+  /* width: 90rem; */
 }
 
 header .first-div .icons {
@@ -83,7 +84,6 @@ header .bottomdiv {
   width: 100vw;
   height: 64.8rem;
   background-color: var(--white);
-  border: 1px solid red;
 } */
 
 .section .write-up {

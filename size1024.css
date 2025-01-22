@@ -1,6 +1,9 @@
 nav {
   width: 90rem;
 }
+header .first-div {
+  width: 90rem;
+}
 
 .big-img .carousel {
   display: flex;
@@ -55,6 +58,12 @@ main .div1 {
 
 .bottomfooter {
   flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
+.innerBottomFooter {
+  flex-direction: row;
   width: 90rem;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
 }
