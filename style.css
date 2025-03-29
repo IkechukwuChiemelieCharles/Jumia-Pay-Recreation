@@ -2,15 +2,21 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  /* outline: 1px solid black; */
+  /* overflow: hidden; */
 }
 html {
   font-size: 62.5%;
+  /* overflow: hidden; */
 }
 
 body {
   background-color: var(--headerCol);
   font-family: "League Spartan", sans-serif;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 :root {
   /* --blue: skyblue; */
@@ -37,7 +43,7 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 100vw;
+  width: 98vw;
   background-color: var(--paleBlue);
 
   /* gap: 1.5rem; */
@@ -143,7 +149,7 @@ header .bottomdiv {
 
 main {
   /* display: flex; */
-  width: 100vw;
+  width: 90vw;
   justify-content: center;
   align-items: center;
   margin-top: 5rem;
@@ -153,7 +159,7 @@ main .big-img {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100vw;
+  width: 90vw;
   height: 18.8rem;
 }
 
@@ -268,7 +274,7 @@ aside {
   flex-direction: column;
   justify-content: center;
   align-items: start;
-  width: 100vw;
+  width: 90vw;
   position: relative;
 }
 aside .head {
@@ -372,7 +378,7 @@ aside .head {
   display: flex;
   justify-content: center;
   align-items: start;
-  width: 100vw;
+  width: 90vw;
   height: 64.8rem;
   background-color: var(--white);
 }
@@ -406,8 +412,8 @@ article {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100vw;
-  height: 20.995rem;
+  width: 90vw;
+  height: auto;
   margin-top: 2rem;
 }
 .article-links {
@@ -417,7 +423,7 @@ article {
   align-items: start;
   /* width: 48.3rem; */
   width: 90%;
-  height: 100%;
+  /* height: 100%; */
   /* padding: 0 1.6rem; */
 }
 .article-links h3 {
@@ -430,7 +436,7 @@ article {
   margin-top: 2rem;
   background-color: var(--white);
   padding: 1.6rem;
-  height: 30rem;
+  /* height: 30rem; */
   gap: 1.5rem;
   padding: 2rem;
 }
@@ -454,7 +460,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100vw;
+  width: 90vw;
   height: 38.7rem;
   background-color: var(--paleBlue);
   gap: 1rem;
